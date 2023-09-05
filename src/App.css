@@ -138,7 +138,7 @@
 
 
 .custom-modal {
-  /* Your modal styles */
+ 
 }
 
 .custom-modal-body {
@@ -161,6 +161,10 @@
 
 .custom-td {
   /* Your custom td styles */
+}
+
+#transparentbg{
+  background-color: transparent;
 }
 
 .custom-h5 {

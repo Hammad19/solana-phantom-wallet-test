@@ -26,8 +26,11 @@ function TokenModal(props) {
             <tbody>
               {props.tokenDetails?.map((item, index) => {
                 return (
-                  <tr className="custom-table-row" key={index}>
-                    <td className="text-white custom-td">
+                  <tr
+                    id="transparentbg"
+                    className="custom-table-row"
+                    key={index}>
+                    <td id="transparentbg" className="text-white custom-td">
                       <div className="d-flex align-items-center">
                         {index + 1}
                         <div className="ms-3 my-2">
@@ -37,7 +40,7 @@ function TokenModal(props) {
                         </div>
                       </div>
                     </td>
-                    <td className="text-end">
+                    <td id="transparentbg" className="text-end">
                       <Badge className="custom-badge">
                         {
                           item?.account?.data?.parsed?.info?.tokenAmount
